@@ -1,4 +1,35 @@
 {% extends "layout.html" %}
 
 {% block title %}Home{% endblock %}
-{% block body %}{% endblock %}
+{% block body %}
+<center><font class="h1">FITFUSE</font></center>
+<hr color="#C8C8C8" class="divider">
+<ul class="nav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Dashboard</a></li>
+  <li><a href="#">User Information</a></li>
+  <li><a href="#">Settings</a></li>
+</ul>
+<hr color="#C8C8C8">
+<div class="division">
+    <button type="submit" value="fat">LOSE FAT</button>
+    <img src="{{url_for('static',filename='fat.png')}}" class="image">
+</div>
+<hr>
+<div class="division">
+<img src="{{url_for('static',filename='muscle.png')}}" class="image">
+<button type="submit" value="muscle">GAIN MUSCLE</button>
+</div>
+<hr color="#F7F57B">
+<div class="division">
+    <button type="submit" value="food">DIET PLAN</button>
+    <img src="{{url_for('static',filename='food.png')}}" class="image">
+</div>
+<hr color="#7D8D00">
+<div class="division">
+    <img src="{{url_for('static',filename='mind.png')}}" class="image">
+    <button type="submit" value="muscle">HEALTHY MIND</button>
+</div>
+<hr color="#F7F57B">
+
+{% endblock %}
