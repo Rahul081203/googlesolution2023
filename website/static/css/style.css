@@ -3,10 +3,10 @@
 }
 .nav{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     border-width:1px 0;
     list-style:none;
-    margin-top:2%;
+    margin-top:0%;
     margin-left: auto;
     padding:0;
     text-align:center;
@@ -17,15 +17,15 @@
 }
 .nav a{
     display:inline-block;
-    padding:15px;
+    padding:8px;
     color:white;
     font-family:'Ubuntu',sans-serif;
     font-weight: 300;
-    font-size: larger;
+    font-size: 22px;
     text-decoration: none;
 }
 .divider{
-    margin-top: 5%;
+    margin-top: 1%;
     max-width: 100%;
 }
 .horizontal-line{
@@ -35,9 +35,21 @@
     top:50%;
     z-index: -1;
 }
+.name{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    text-align: end;
+    position: relative;
+}
+.logo{
+    height: 300px;
+    overflow: hidden;
+}
 .image{
     z-index: 1;
     height:400px;
+    
 }
 
 .division{
@@ -53,13 +65,15 @@
     margin-bottom:15%;
     border-radius: 30px;
     font-family: 'Wallpoet', cursive;
-    font-size:xx-large;
+    font-size: 250%;
     color:white;
     background-image:linear-gradient(to bottom, #802495,#000000);
     border: none;
+    text-align: center;
 }
 .h1{
     font-family:'Wallpoet',cursive;
     color:#D9603C;
-    font-size: 60px;
+    font-size: 120px;
+    margin-left: 8%;
 }
