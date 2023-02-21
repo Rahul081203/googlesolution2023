@@ -1,9 +1,9 @@
 .background{
-    background-color: rgb(8, 0, 34);
+    background-color: rgb(159, 159, 159);
 }
 .nav{
     display: flex;
-    justify-content:space-around;
+    justify-content:flex-end;
     border-width:1px 0;
     list-style:none;
     margin-top:0%;
@@ -18,18 +18,18 @@
 .nav a{
     display:inline-block;
     padding:8px;
-    color:white;
+    color:rgb(22, 9, 9);
     font-family:'Ubuntu',sans-serif;
     font-weight: 300;
     font-size: 22px;
     text-decoration: none;
 }
 .divider1{
-    margin-top: -5%;
+    margin-top: -12%;
     max-width: 100%;
 }
 .divider{
-    margin-top: 1%;
+    margin-top: -1%;
     max-width: 100%;
 }
 .horizontal-line{
@@ -46,10 +46,14 @@
     text-align: end;
     position: relative;
 }
+.underlay{
+    z-index:-1;
+}
 .logo{
-    height: 300px;
+
+    height: 350px;
     overflow: hidden;
-    margin-bottom: 5%;
+    z-index:1;
     max-width: 100%;
 }
 
@@ -86,7 +90,7 @@
     width:440px;
     height:90px;
     margin-top: 15%;
-    margin-left:20%;
+    margin-left:15%;
     margin-right: 10%;
     margin-bottom:5%;
     border-radius: 30px;
@@ -99,8 +103,7 @@
 }
 .h1{
     font-family:'Wallpoet',cursive;
-    color:#D9603C;
-    font-size: 120px;
+    color:#cb4117;
     margin-left: 8%;
     font-size: 60px;
     margin-top: 5%;
